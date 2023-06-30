@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    database: h2
+logging:
+  level:
+    root: debug
